@@ -37,9 +37,10 @@ int main()
 	{
 		y[i]=divs[temp--]-48;		
 	}	
-	division(x,y,digits);	
+	division(x,y,digits);
+	getch();	
 	return 0;	
-	getch();
+	
 }
 void division(int x[],int y[],int digits)
 {
