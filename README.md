@@ -1,37 +1,25 @@
-## Welcome to GitHub Pages
+## Long Division using C programming Language
 
-You can use the [editor on GitHub](https://github.com/abhra94/LongDiv/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+**Editor and Compiler used**: Dev-C++ 5.11, gcc 4.9.2
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Have you ever wondered of dividing an integer with an integer that exceeds the _long int_ data type in C? 
+_Long int_ ranges from -2,147,483,648 to 2,147,483,647. So total number of digits we can enter upto 10 using long int datatype.
 
-### Markdown
+For Java, C# and other object oriented programmers, there is a class named _BigInteger_. You can use it for long division, but there is no such logic, just few lines of code. create object of BigInteger, pass value to BigInteger Constructor and call the method "divide" and Done.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+So if you prefer manual logic, or how this works, or you are a C coder, here goes my [code](https://github.com/abhra94/LongDiv/blob/master/BigDivision.c). 
 
-```markdown
-Syntax highlighted code block
+**Disadvantage:** When the number of digits of quotient will be greater than 9, the result will be shown after sometime. This is because of loop. When the number of iterations goes higher, program will run slow. You may think that program goes to infinite loop or just hanged or crashed, but not. Just remain your program running, after sometime it will automatically show the correct result :)
 
-# Header 1
-## Header 2
-### Header 3
+Screenshot-1 (Normal Division)
+[Normal Division](/Screenshots/division3.png)
 
-- Bulleted
-- List
+Screenshot-2 (No of Digits in quotient=10, Run time: 279.4s)
+[No of Digits in quotient=10, Run time: 279.4s](/Screenshots/division.png)
 
-1. Numbered
-2. List
+Screenshot-3 (No of Digits in quotient=11, Run time: 2746s)
+[No of Digits in quotient=11, Run time: 2746s](/Screenshots/division2.png)
 
-**Bold** and _Italic_ and `Code` text
+Screenshot-4 (Divide by Zero Error)
+[Divide by Zero Error](/Screenshots/division4.png)
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/abhra94/LongDiv/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
