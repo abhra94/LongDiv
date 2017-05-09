@@ -14,12 +14,12 @@ So if you prefer manual logic, or how this works, or you are a C coder, here goe
 Screenshot-1 (Normal Division) <br />
 ![Normal Division](/Screenshots/division3.png)
 
-Screenshot-2 (No of Digits in quotient=10, Run time: 279.4s)
+Screenshot-2 (No of Digits in quotient=10, Run time: 279.4s)<br />
 ![No of Digits in quotient=10, Run time: 279.4s](/Screenshots/division.png)
 
-Screenshot-3 (No of Digits in quotient=11, Run time: 2746s)
+Screenshot-3 (No of Digits in quotient=11, Run time: 2746s)<br />
 ![No of Digits in quotient=11, Run time: 2746s](/Screenshots/division2.png)
 
-Screenshot-4 (Divide by Zero Error)
+Screenshot-4 (Divide by Zero Error)<br />
 ![Divide by Zero Error](/Screenshots/division4.png)
 
