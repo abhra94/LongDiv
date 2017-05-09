@@ -4,6 +4,7 @@
 #define sf scanf
 /*
 Author: Abhrajyoti Majumdar
+Compiler: gcc 4.9.2
 */
 void division(int [],int [],int);
 void quotient(int [],int);
