@@ -12,14 +12,14 @@ So if you prefer manual logic, or how this works, or you are a C coder, here goe
 **Disadvantage:** When the number of digits of quotient will be greater than 9, the result will be shown after sometime. This is because of loop. When the number of iterations goes higher, program will run slow. You may think that program goes to infinite loop or just hanged or crashed, but not. Just remain your program running, after sometime it will automatically show the correct result :)
 
 Screenshot-1 (Normal Division)
-[Normal Division](/Screenshots/division3.png)
+![Normal Division](/Screenshots/division3.png)
 
 Screenshot-2 (No of Digits in quotient=10, Run time: 279.4s)
-[No of Digits in quotient=10, Run time: 279.4s](/Screenshots/division.png)
+![No of Digits in quotient=10, Run time: 279.4s](/Screenshots/division.png)
 
 Screenshot-3 (No of Digits in quotient=11, Run time: 2746s)
-[No of Digits in quotient=11, Run time: 2746s](/Screenshots/division2.png)
+![No of Digits in quotient=11, Run time: 2746s](/Screenshots/division2.png)
 
 Screenshot-4 (Divide by Zero Error)
-[Divide by Zero Error](/Screenshots/division4.png)
+![Divide by Zero Error](/Screenshots/division4.png)
 
