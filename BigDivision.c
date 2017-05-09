@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<conio.h>
 #include<string.h>
 #define pf printf
 #define sf scanf
@@ -38,6 +39,7 @@ int main()
 	}	
 	division(x,y,digits);	
 	return 0;	
+	getch();
 }
 void division(int x[],int y[],int digits)
 {
